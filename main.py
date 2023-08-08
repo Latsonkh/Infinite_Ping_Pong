@@ -10,8 +10,8 @@ pygame.font.init()
 pygame.init()
 
 #Sounds
-ball_collide = pygame.mixer.Sound("Sounds/collide.mp3")
-goal = pygame.mixer.Sound("Sounds/goal.mp3")
+ball_collide = pygame.mixer.Sound("collide.mp3")
+goal = pygame.mixer.Sound("goal.mp3")
 #Font Sizes
 player_score = 0
 player2_score = 0 
@@ -23,7 +23,7 @@ WIDTH, HEIGHT = 400, 600# width and height of the window
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT)) # sets the window
 pygame.display.set_caption("Ping Pong") #displays the game
-BG = pygame.transform.scale(pygame.image.load("images/black_image.jpeg"), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load("black_image.jpeg"), (WIDTH, HEIGHT))
 
 #player
 P_HEIGHT = 5
